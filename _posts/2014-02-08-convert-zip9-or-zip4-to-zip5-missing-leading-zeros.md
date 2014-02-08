@@ -7,7 +7,7 @@ tags: [ruby]
 ---
 {% include JB/setup %}
 
-For when Excel turns `057531234` into `57531234.0` (drops leading zeros and treats it like a number) and you just want `05753`...
+For when Excel turns `057531234` into `57531234.0` (drops leading zeros and treats it like a number) and you just want `05753`.
 
 Here's the problem in the form of an acceptance test:
 
@@ -69,7 +69,7 @@ def zip5(input)
 end
 {% endhighlight %}
 
-Works...
+Works:
 
 {% highlight ruby %}
 Run options: --seed 32751
