@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Oversolving: Seamus Abshere's blog about programming
+title: "Oversolving: Seamus Abshere's blog about programming"
 tagline: 
 ---
 {% include JB/setup %}
