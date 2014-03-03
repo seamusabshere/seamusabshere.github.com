@@ -9,8 +9,21 @@ tags: [postgres, database, sql, hstore, csv]
 
 As of today, neither [pgAdmin](http://www.pgadmin.org/) nor [PG Commander](http://eggerapps.at/pgcommander/) display [hstore](http://www.postgresql.org/docs/9.1/static/hstore.html) data nicely. Here's a 5-line Ruby script to stick in `~/bin/hscv` that dumps a hstore column to a CSV:
 
-<script src="https://gist.github.com/seamusabshere/6708941.js">
-</script>
+{% highlight ruby %}
+#!/usr/bin/env ruby
+# Usage: hcsv DBNAME TBLNAME HSTORECOL 
+# Output columns will be id + all the hstore keys
+
+dbname, tblname, hstorecol = ARGV[0..2]
+
+# Get hstore keys
+out = `psql #{dbname} --tuples --command "SELECT DISTINCT k FROM (SELECT skeys(#{hstorecol}) AS k FROM #{tblname}) AS dt ORDER BY k"`
+headers = out.split(/\n/).map(&:strip)
+
+# Dump CSV of id + all hstore keys
+hstore_headers_sql = headers.map { |k| %{#{hstorecol}->'#{k}' AS "#{k}"} }.join(', ')
+system 'psql', dbname, '--tuples', '--command', "COPY (SELECT id, #{hstore_headers_sql} FROM #{tblname}) TO STDOUT (FORMAT 'csv', HEADER)"
+{% endhighlight %}{.wide}
 
 So in your `showoff` database you have a `pets` table with an hstore column called `d`:
 
