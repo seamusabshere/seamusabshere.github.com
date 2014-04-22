@@ -74,7 +74,7 @@ Works:
 {% highlight ruby %}
 Run options: --seed 32751
 
-# Running:
+## Running:
 
 .................
 
