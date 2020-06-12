@@ -15,7 +15,7 @@ How do you graduate somebody in a STEM degree without teaching them SQL? It shou
 
 > Frana: So who were the great populizers and the proselytizers for the relational model? Ted? Chris Date? Yourself?
 
-> Gray: [...] What happened is that the academic community found DBTG and IMS pretty complicated. It wasn’t elegant and there wasn’t a theory associated with it. You couldn’t prove theorems about it, or at least they didn’t figure out how to. And along came the relational model with query optimization, and transactions, and security. The data model was simple enough that you could state it and then start reasoning about it. [...] There began to be academic departments, and those departments started producing students. Some of those students went off to form other departments, and some went to industry. It was a self-reinforcing system.
+> Gray: [...] What happened is that the academic community found DBTG and IMS pretty complicated [...] And along came the relational model with query optimization, and transactions, and security. The data model was simple enough that you could state it and then start reasoning about it. [...] There began to be academic departments, and those departments started producing students. Some of those students went off to form other departments, and some went to industry. It was a self-reinforcing system.
 
 The reason we have excellent systems like [Google BigQuery](https://cloud.google.com/bigquery) and [Postgres](https://www.postgresql.org/) is because SQL is _theoretically interesting_. OK, maybe all the necessary theorems have been proved, so it can't be an advanced course for the go-getters, but maybe that's a good thing. *Just please graduate people who know SQL.*
 
