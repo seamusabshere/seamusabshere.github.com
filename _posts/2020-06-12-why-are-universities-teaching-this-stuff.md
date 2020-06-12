@@ -17,7 +17,7 @@ How do you graduate somebody in a STEM degree without teaching them SQL? It shou
 
 > Gray: [...] What happened is that the academic community found DBTG and IMS pretty complicated [...] And along came the relational model with query optimization, and transactions, and security. The data model was simple enough that you could state it and then start reasoning about it. [...] There began to be academic departments, and those departments started producing students. Some of those students went off to form other departments, and some went to industry. It was a self-reinforcing system.
 
-The reason we have excellent systems like [Google BigQuery](https://cloud.google.com/bigquery) and [Postgres](https://www.postgresql.org/) is because SQL is _theoretically interesting_. OK, maybe all the necessary theorems have been proved, so it can't be an advanced course for the go-getters, but maybe that's a good thing. *Just please graduate people who know SQL.*
+The reason we have excellent systems like [Google BigQuery](https://cloud.google.com/bigquery) and [Postgres](https://www.postgresql.org/) is because SQL is _theoretically interesting_. OK, maybe all the necessary theorems have been proved, so it can't be an advanced course for the go-getters, but maybe that's a good thing. **Just please graduate people who know SQL.**
 
 ## Too much Java
 
@@ -28,7 +28,7 @@ Why are universities still teaching Java? It forms the core of [COS 333 Advanced
 
 As a student, if you want to pick up a hot new language like [Rust](https://www.rust-lang.org/), this is the double whammy - you just won't understand. *Java should be an elective for people who want to work in Java shops.*
 
-How about just follow MIT's example and have students start in Python like [6.0001 Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) and then teach Lisp, again just like MIT's [6.009 Fundementals of Programming](https://py.mit.edu/spring20)?
+How about just follow MIT's example and have students start in Python like [6.0001 Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) and then teach Lisp, again just like MIT's [6.009 Fundementals of Programming](https://py.mit.edu/spring20)? I can tell you that I would be **very** impressed to hear about this and see its results in code interviews.
 
 ## Why would you ever teach proprietary software like Stata?
 
