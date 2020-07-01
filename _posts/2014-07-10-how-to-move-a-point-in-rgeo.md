@@ -7,6 +7,8 @@ tags: [ruby, gis]
 ---
 {% include JB/setup %}
 
+_WARNING: This post is ancient and wrong._
+
 Here's a method that lets you move/offset/translate a certain distance (in meters) away from a point expressed in longitude and latitude:
 
 {% highlight ruby %}

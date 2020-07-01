@@ -7,6 +7,8 @@ tags: [ruby]
 ---
 {% include JB/setup %}
 
+_WARNING: This post is ancient and probably wrong._
+
 Standard Net::HTTP usage pulled from the [Ruby 1.9.3 docs for Net::HTTP](http://ruby-doc.org/stdlib-1.9.3/libdoc/net/http/rdoc/Net.html):
 
 {% highlight ruby %}

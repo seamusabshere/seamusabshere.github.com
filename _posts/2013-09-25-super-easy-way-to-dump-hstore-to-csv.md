@@ -7,6 +7,8 @@ tags: [postgres, database, sql, hstore, csv]
 ---
 {% include JB/setup %}
 
+_WARNING: This post is ancient and probably wrong._
+
 As of today, neither [pgAdmin](http://www.pgadmin.org/) nor [PG Commander](http://eggerapps.at/pgcommander/) display [hstore](http://www.postgresql.org/docs/9.1/static/hstore.html) data nicely. Here's a 5-line Ruby script to stick in `~/bin/hscv` that dumps a hstore column to a CSV:
 
 {% highlight ruby %}

@@ -7,6 +7,8 @@ tags: [ruby]
 ---
 {% include JB/setup %}
 
+_WARNING: This post is ancient and probably wrong._
+
 The [RVM installation instructions for Vagrant](http://rvm.io/integration/vagrant) install [RVM](http://rvm.io) as root.
 
 If you want to install it as an unprivileged user, namely `vagrant`, do this:
