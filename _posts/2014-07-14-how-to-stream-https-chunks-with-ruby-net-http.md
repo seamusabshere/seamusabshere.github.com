@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to stream HTTPS in chunks with Ruby's Net::HTTP"
+title: "[out of date, wrong] How to stream HTTPS in chunks with Ruby's Net::HTTP"
 description: "So you don't load it all into memory"
 category:
 tags: [ruby]

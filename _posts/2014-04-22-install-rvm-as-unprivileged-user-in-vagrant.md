@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to install RVM as an unprivileged user in Vagrant"
+title: "[out of date] How to install RVM as an unprivileged user in Vagrant"
 description: "If you don't want to install RVM as root in Vagrant, you have to modify the scripts provided on http://rvm.io/integration/vagrant"
 category: 
 tags: [ruby]

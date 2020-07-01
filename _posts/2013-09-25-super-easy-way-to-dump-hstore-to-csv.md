@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Super easy way to dump HStore to CSV"
+title: "[out of date] Super easy way to dump HStore to CSV"
 description: "Sometimes you just want to see your HStore table in Excel..."
 category: 
 tags: [postgres, database, sql, hstore, csv]

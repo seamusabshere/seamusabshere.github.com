@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to move a distance in meters away from a point in Ruby using RGeo"
+title: "[wrong] How to move a distance in meters away from a point in Ruby using RGeo"
 description: "For example, what is 100 meters west of POINT(-72.4861 44.1853)?"
 category:
 tags: [ruby, gis]
